@@ -1,0 +1,161 @@
+
+                     T H E   L A S T   E I C H H O F           
+
+Original version Alpha-Helix 1993.
+Ported to Allegro library Gavin Smith 2014.
+
+INSTALLATION
+
+On a Unix-like system, run ./configure followed by make install.  If you want
+the high score and settings file to be modifiable, set it with the appropriate
+permissions.  By default, it is installed as /usr/local/var/CONFIG.HIG.
+
+COPYING
+
+Original source code for MS-DOS released by Dany Schoch under the following
+licence:
+
+-----------------------------------------------------------------------------
+Licence Agreement
+------------------
+Do what ever you want with this code.
+Use it in your code, change it, delete it.
+HOWEVER: Don't blame me if it doesn't work the way it should.
+-----------------------------------------------------------------------------
+
+Game data copyrighted to the original authors and freely distributable.
+
+C source code for Allegro port copyright 2014 by Gavin Smith and licensed
+under the GNU General Public License version 3.  See the file LICENSE.GPL
+included with the program.
+
+=============================================================================
+
+WEAPONS
+
+NAME
+PRICE
+ENERGIZATION PERIOD / POWER
+DESCRIPTION
+
+EICHHOF LAGER 58CL
+3 / 2
+The main weapon you start with and keep throughout the game
+
+STANGE
+3.00
+6 / 3
+Single large white shot
+
+PONY
+3.35
+4 / 2
+Two angled streams of bouncing shots
+
+BARBARA BRAEU -
+3.20
+4 / 2
+Two angled streams
+
+DUNKEL - 
+3.00 
+5 / 2
+Heat-seeking shots
+
+From the menu card -
+
+CAN 33CL        2.40    6 / 2
+	Shoot out waves of energy from its sides
+CHEUBELI        2.60    5 / 3
+	Shoot downwards
+POKAL           4.00    20 / 6
+	Explode into 4 smaller shots
+XENON 2 CANNON  5.40    8 / 6
+	Single powerful missile
+
+=============================================================================
+
+LEVELS
+
+0 Easy Start
+1 Feldschloesschen
+	Soon after defeating the blimp miniboss, there will be a big blue crate
+that throws out exploding bottles.  Watch out for the brown shards, and turn up
+the brightness of your monitor if necessary.  When the crate rises from the
+bottom of the screen, stay away from the bottom of the screen where the green
+bottles will rush in, watching out for the looping bottle on the left and its
+homing shot.  The centre left is a good place to be.
+
+	The two end bosses are quite hard.  When there are two crates on either
+side throwing out exploding bottles, try to stay close to the blue crates,
+dodge down for each shard and get back up as soon as possible.	Once you have
+destroyed one of the crates, take a path to the other side in the upper half of
+the screen so that the shards will be coming from below.  It is easier to dodge
+shards coming at you if they are coming from above or below because the Eichhof
+bottle is narrower than it is tall.  A fairly fool-proof way is to have
+selected the Pony weapon and to shoot the exploding bottles with Eichhof while
+shooting the crates with the Pony.  If all else fails, try to stay alive long
+enough for the final boss to appear.  When you die again, you will skip
+straight to the final boss.
+	Destroy one of the small blue crates first, then move to the other
+side.  Watch out for the large, slow round white missiles that are aimed at
+you.  You should try either to be high up at the sides or near the bottom
+at centre when they are released, but avoid the corners.
+
+
+2 Weissbier
+	When going past the exploding barrels, try to remember which ones you
+have shot the most to anticipate which will explode first.
+	For final boss, start at the bottom right of the screen. Then move to
+the top right and let the row of beers shoot underneath you.  Then back to the
+bottom right.  Circle round the boss to the bottom left, avoiding the arc of
+small bottles it shoots out.
+
+3 No More Cocktails
+	For the final three bosses, circle around whichever one is on the
+bottom right.
+
+4 The Morning After
+	Spend any left-over money on extra lives.
+	The part where two toilets appear at the bottom left and spit out
+bottles is very hard.  There will be two runs of green bottles.  The first
+will go up slightly before reaching the right of the screen and the second
+will go up along the right edge before circling round the top.  Position
+yourself in between them.
+	When navigating the field of flying toasters, don't fire your weapons.
+This will avoid the counter-shots when each toaster is destroyed.  After that,
+watch out for the two shots spat high out the top of the small pink cup.
+This cup takes a lot of damage but is easy to ignore.  You can sometimes duck
+between the cup and its shots.  It will go off screen
+by itself eventually.
+	Immediately after there are three exploding apple cores coming at you,
+wait for the alarm clocks to appear at the right side of the screen.  Then
+position yourself under the bottom one.  This should allow you to destroy them
+quickly and avoid their shots.
+The bottom
+right of the screen is a good place to be for the second phase of the final
+boss to dodge targeted shots and destroy the spawned alarm clocks.
+
+
+General advice:
+
+If you cannot catch an enemy up because they are moving the same speed as you,
+try moving towards them to give your bullets time to catch up.
+
+Position your ship in anticipation of homing shots so they will go where you
+want to make them easy to dodge.  Honing shots aim towards the top (the bottle
+cap) of your main weapon.  Therefore the top left and top right of the screen
+are good places for them to go.
+
+=============================================================================
+
+WEB LINKS
+
+SourceForge home https://sourceforge.net/projects/lasteichhof/
+
+Alpha-Helix used to have a website at
+http://www.ife.ee.ethz.ch/~ammann/alphahelix/eichhof/.  The Internet Archive
+has an archived version at
+
+https://web.archive.org/web/20050829001932/http://www.ife.ee.ethz.ch/~ammann/
+alphahelix/eichhof/
