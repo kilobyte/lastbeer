@@ -608,7 +608,7 @@ void showpcx256(char *pic, int line)
    unsigned i;
    char     *pos;
 
-   int write_address;
+   uintptr_t write_address;
 
    height = ((short int *)pic)[5] + 1;	// Get picture height.
    pos = pic + 128;		// Skip Header.

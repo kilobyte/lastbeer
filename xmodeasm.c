@@ -394,7 +394,7 @@ void putspritedirect (struct sprstrc *spr, int xp, int yp, int n)
   unsigned char *data;
   unsigned char *datap;
 
-  int write_address;
+  uintptr_t write_address;
 
   /* Point at struct sprstrc representing the frame. */
 
