@@ -118,7 +118,7 @@ struct starstrc {
 
 void create_sprstrc (struct sprstrc **, unsigned char *);
 
-#define retrace() {while(inportb(0x3da)&8); while(!(inportb(0x3da)&8));}
+static void retrace() {}
 
 #define FLASH_COLOUR 230
 
