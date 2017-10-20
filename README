@@ -10,6 +10,8 @@ On a Unix-like system, run ./configure followed by make install.  If you want
 the high score and settings file to be modifiable, set it with the appropriate
 permissions.  By default, it is installed as /usr/local/var/CONFIG.HIG.
 
+You need Allegro 4, on Debian derivatives it comes as liballegro4-dev.
+
 COPYING
 
 Original source code for MS-DOS released by Dany Schoch under the following
