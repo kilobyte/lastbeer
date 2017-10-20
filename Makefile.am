@@ -1,6 +1,6 @@
 AUTOMAKE_OPTIONS = foreign
 
-AM_CPPFLAGS = \
+beer_CPPFLAGS = \
   -DLOCALSTATEDIR=\"$(localstatedir)\" \
   -DDATADIR=\"$(datadir)\"
 
@@ -15,5 +15,6 @@ dist_data_DATA = BEER.DAT
 
 EXTRA_DIST = README LICENSE.GPL
 
-beer_LDFLAGS = `allegro-config --libs debug`
-
+beer_CFLAGS = `allegro-config --cflags`
+beer_LDFLAGS = `allegro-config --libs`
+beer_CPPFLAGS += `allegro-config --cppflags`
